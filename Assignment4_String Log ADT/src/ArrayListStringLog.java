@@ -31,7 +31,7 @@ public class ArrayListStringLog implements StringLogInterface {
 
     @Override
     public boolean isFull() {
-        return false; // ArrayLists dynamically resize
+        return false;
     }
 
     @Override
@@ -84,4 +84,5 @@ public class ArrayListStringLog implements StringLogInterface {
         }
         return result.toString();
     }
+
 }
